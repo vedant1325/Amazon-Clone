@@ -280,3 +280,158 @@ ul a {
     margin-bottom: 20px;
     color: white;
 }
+/* Default styles are for larger screens (desktops) */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .navbar {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 10px;
+      height: auto;
+    }
+  
+    .nav-logo {
+      margin-bottom: 10px;
+    }
+  
+    .nav-address, .nav-sign, .nav-return, .nav-cart {
+      font-size: 0.75rem;
+      text-align: center;
+      width: 26%;
+      padding: 5px 0;
+      border: none;
+    }
+  
+    .nav-search {
+      width: 100%;
+      margin: 10px 0;
+      height: 35px;
+    }
+  
+    .search-select {
+      width: 20%;
+    }
+  
+    .search-input {
+      width: 70%;
+    }
+  
+    .search-icon {
+      width: 10%;
+      font-size: 1rem;
+    }
+  
+    .panel {
+      display: none;
+    }
+  
+    .hero-section {
+      height: 200px;
+      background-size: contain;
+    }
+  
+    .shop-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box {
+      width: 78%;
+      margin-bottom: 10px;
+      margin-top: 32px;
+    }
+    .add-icon{
+        margin-left: 45px;
+    }
+  
+    .foot-panel2 {
+      flex-direction: column;
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .foot-panel2 ul {
+      margin-bottom: 20px;
+    }
+  
+    .foot-panel3 {
+      font-size: 0.8rem;
+    }
+  
+    .foot-panel4 {
+      padding: 10px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .navbar {
+      justify-content: space-around;
+    }
+    .hero-section {
+        height: 187px;
+    }
+    .add-first{
+        font-size: 1px;
+        margin-right: 2px;
+    }
+    .nav-search {
+      width: 46%;
+      margin: 10px 0;
+    }
+    .nav-second {
+        font-size: 12px;
+        padding: 3px;
+    }
+    .nav-sign,.nav-return,.nav-cart{
+        
+        padding: 3px;
+    }
+  .nav-search input{
+    width: 352px;
+  }
+  
+    .shop-section {
+      justify-content: space-between;
+    }
+  
+    .box {
+      width: 48%;
+    }
+  
+    .foot-panel2 {
+      flex-direction: column;
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .foot-panel3 {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* Large devices (desktops, 1024px and up) */
+  @media only screen and (min-width: 1024px) {
+    .navbar {
+      justify-content: space-evenly;
+    }
+  
+    .nav-search {
+      width: 620px;
+    }
+  
+    .shop-section {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  
+    .box {
+      width: 23%;
+    }
+  
+    .foot-panel2 {
+      flex-direction: row;
+    }
+  }
+  
